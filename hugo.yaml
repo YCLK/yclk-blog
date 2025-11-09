@@ -36,7 +36,7 @@ params:
   images: ["images/YCLK-Blog-Opengraph.png"] # ink or path of image for opengraph, twitter-cards
   DateFormat: "2006년 01월 02일"
   defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  # disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: false
