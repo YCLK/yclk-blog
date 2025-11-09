@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on 루크의 블로그</title>
+    <link>https://blog.yclk.me/posts/</link>
+    <description>Recent content in Posts on 루크의 블로그</description>
+    <image>
+      <title>루크의 블로그</title>
+      <url>https://blog.yclk.me/images/YCLK-Blog-Opengraph.png</url>
+      <link>https://blog.yclk.me/images/YCLK-Blog-Opengraph.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.yclk.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>아두이노 기초 (Feat. 전기 전자, 입출력, 시리얼 통신)</title>
+      <link>https://blog.yclk.me/posts/arduino-basic-concept/</link>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/arduino-basic-concept/</guid>
+      <description>🤖 아두이노의 기초적인 개념을 알아보자</description>
+    </item>
+    <item>
+      <title>Tailwind CSS 웹 폰트 적용하기</title>
+      <link>https://blog.yclk.me/posts/applying-web-font-on-tailwind-css/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/applying-web-font-on-tailwind-css/</guid>
+      <description>💻 CDN을 통해 적용한 Tailwind CSS에 웹 폰트를 적용하는 방법</description>
+    </item>
+    <item>
+      <title>2024 SW 아카데미 2주차 | 리스트와 반복 구조</title>
+      <link>https://blog.yclk.me/posts/list-repeat-structure-week2/</link>
+      <pubDate>Tue, 11 Jun 2024 13:57:36 +0900</pubDate>
+      <guid>https://blog.yclk.me/posts/list-repeat-structure-week2/</guid>
+      <description>&lt;h2 id=&#34;-리스트란&#34;&gt;| 리스트란?&lt;/h2&gt;
+&lt;p&gt;비슷한 속성의 변수가 100개 이상이 필요한 프로그램에서는 각각의 변수에 이름을 부여하는 게 아니라 &lt;strong&gt;하나의 이름에 번호를 부여&lt;/strong&gt;하여 문제를 해결할 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;변수&lt;/strong&gt;가 &lt;strong&gt;박스 하나&lt;/strong&gt;라고 본다면, &lt;strong&gt;리스트&lt;/strong&gt;는 그런 박스들을 &lt;strong&gt;여러 개 붙여 놓은 것&lt;/strong&gt;이라고 할 수 있다.
+&lt;strong&gt;하지만 리스트는 박스들의 연속 덩어리에만 이름을 정해주고, 값 하나하나는 번호로 호출한다&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/Pasted%20image%2020240611063902.png&#34;&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;images/Pasted%20image%2020240611063830.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;리스트는 &lt;code&gt;,&lt;/code&gt; 로 구분된 여러 값을  &lt;strong&gt;대괄호&lt;/strong&gt;&lt;code&gt;[ ]&lt;/code&gt;로 묶어 표현한다.
+리스트는 &lt;strong&gt;파이썬의 모든 객체&lt;/strong&gt;(리스트도 가능함)를 원소로 가질 수 있으며, 빈 리스트도 생성할 수 있다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2024 SW 아카데미 1주차 | 변수와 선택 구조</title>
+      <link>https://blog.yclk.me/posts/variables-selection-structure-week1/</link>
+      <pubDate>Mon, 10 Jun 2024 13:57:18 +0900</pubDate>
+      <guid>https://blog.yclk.me/posts/variables-selection-structure-week1/</guid>
+      <description>&lt;h2 id=&#34;-입출력이란&#34;&gt;| 입출력이란?&lt;/h2&gt;
+&lt;p&gt;입출력의 기준은 프로그램 또는 컴퓨터이다.&lt;/p&gt;
+&lt;p&gt;입력: 프로그램 또는 컴퓨터에 무언가를 주는 것
+출력: 프로그램 또는 컴퓨터가 무언가를 주는 것&lt;/p&gt;
+&lt;h3 id=&#34;-출력-예제&#34;&gt;| 출력 예제&lt;/h3&gt;
+&lt;p&gt;print 함수를 이용하여 &lt;code&gt;&amp;quot;Hello World!&lt;/code&gt;를 출력해보자&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# helloworld 출력&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;world&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# hellohellohellohellohellohellohello 출력&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# helloworldworldworldworldworld 출력&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;world&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;-자료형이란&#34;&gt;| 자료형이란?&lt;/h2&gt;
+&lt;p&gt;여러 종류의 데이터형을 식별하는 분류로, 자료형의 종류로는 &lt;strong&gt;정수형, 불린형, 문자형, 실수형&lt;/strong&gt; 등이 있다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>티스토리에서 Hugo로! 나의 블로그 이전기</title>
+      <link>https://blog.yclk.me/posts/tistory-to-hugo/</link>
+      <pubDate>Sat, 25 May 2024 20:12:23 +0900</pubDate>
+      <guid>https://blog.yclk.me/posts/tistory-to-hugo/</guid>
+      <description>✨ 블로그를 티스토리에서 휴고(Hugo)로 이전하다!</description>
+    </item>
+    <item>
+      <title>macOS High Sierra (10.13.6) 해킨토시 설치 가이드 (Feat. Opencore 0.9.8)</title>
+      <link>https://blog.yclk.me/posts/macos-high-sierra-hackintosh-guide/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/macos-high-sierra-hackintosh-guide/</guid>
+      <description>💻 오픈코어를 활용한 해킨토시 macOS High Sierra (10.13.6) 설치 가이드</description>
+    </item>
+    <item>
+      <title>2024년에 쓰는 HP 스트림 13인치 후기</title>
+      <link>https://blog.yclk.me/posts/hp-stream-13-review-in-2024/</link>
+      <pubDate>Sat, 13 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/hp-stream-13-review-in-2024/</guid>
+      <description>💻 2024년에도 쓸만할까? HP 스트림 13인치 사용 후기</description>
+    </item>
+    <item>
+      <title>일주일을 계획하는 위클리 스터디 플래너 PDF 양식 공유</title>
+      <link>https://blog.yclk.me/posts/weekly-study-planner-templete-pdf/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/weekly-study-planner-templete-pdf/</guid>
+      <description>✍️ 주간 계획 수립에 도움을 주는 스터디 플래너 PDF 양식 공유</description>
+    </item>
+    <item>
+      <title>Anki 한문 템플릿 공유</title>
+      <link>https://blog.yclk.me/posts/anki-chinese-character-templete/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/anki-chinese-character-templete/</guid>
+      <description>💻 한문 학습에 최적화된 Anki 템플릿 공유</description>
+    </item>
+    <item>
+      <title>삼성 SENS Q45 체험기 (Feat. Lubuntu 18.04)</title>
+      <link>https://blog.yclk.me/posts/samsung-sens-q45-review/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/samsung-sens-q45-review/</guid>
+      <description>삼성 SENS Q45 사용 후기</description>
+    </item>
+    <item>
+      <title>GitHub 중(고등)학생 인증 하는 법 (Student Developer Pack)</title>
+      <link>https://blog.yclk.me/posts/how-to-certificate-github-student-developer-pack/</link>
+      <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/how-to-certificate-github-student-developer-pack/</guid>
+      <description>🔥 중학생 또는 고등학생을 위한 깃허브(GitHub) 학생 인증 가이드</description>
+    </item>
+  </channel>
+</rss>

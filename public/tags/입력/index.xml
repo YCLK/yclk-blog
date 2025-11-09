@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>입력 on 루크의 블로그</title>
+    <link>https://blog.yclk.me/tags/%EC%9E%85%EB%A0%A5/</link>
+    <description>Recent content in 입력 on 루크의 블로그</description>
+    <image>
+      <title>루크의 블로그</title>
+      <url>https://blog.yclk.me/images/YCLK-Blog-Opengraph.png</url>
+      <link>https://blog.yclk.me/images/YCLK-Blog-Opengraph.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 27 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.yclk.me/tags/%EC%9E%85%EB%A0%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>아두이노 기초 (Feat. 전기 전자, 입출력, 시리얼 통신)</title>
+      <link>https://blog.yclk.me/posts/arduino-basic-concept/</link>
+      <pubDate>Sun, 27 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/arduino-basic-concept/</guid>
+      <description>🤖 아두이노의 기초적인 개념을 알아보자</description>
+    </item>
+  </channel>
+</rss>

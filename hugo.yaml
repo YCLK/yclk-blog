@@ -1,0 +1,141 @@
+baseURL: https://blog.yclk.me/
+languageCode: ko-kr
+title: 루크의 블로그
+pagination:
+  pagerSize: 5
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+sitemap:
+  changefreq: daily
+  filename: sitemap.xml
+  priority: 0.5
+
+googleAnalytics: G-61DQ64GNV7
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 루크의 블로그
+  description: "✨ IT와 개발 지식 창고, 루크의 블로그!"
+  keywords: [Blog, 블로그, YCLK, 루크, 개발자, 개발블로그, 코딩, Devlog, Development]
+  author: YCLK
+  images: ["images/YCLK-Blog-Opengraph.png"] # ink or path of image for opengraph, twitter-cards
+  DateFormat: "2006년 01월 02일"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
+    safari_pinned_tab: "favicon/apple-touch-icon.png"
+
+  label:
+    text: "루크의 블로그"
+    icon: favicon/apple-touch-icon.png
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "안녕하세요!"
+    Content: 루크의 블로그에 오신것을 환영합니다 :)
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/YCLK"
+    - name: buymeacoffee
+      url: "https://toss.me/luke0619"
+    - name: discord
+      url: "https://www.discord.com/users/503356295001407488"
+    - name: email
+      url: "mailto:luke@yclk.me"
+
+  analytics:
+    google:
+      SiteVerificationTag: ""
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # editPost:
+  #   URL: "https://github.com/YCLK_Blog/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: search
+      name: 검색
+      url: /search
+      weight: 1
+
+    - identifier: categories
+      name: 카테고리
+      url: /categories
+      weight: 2
+
+    - identifier: tags
+      name: 태그
+      url: /tags
+      weight: 3
+
+    - identifier: archives
+      name: 아카이브
+      url: /archives
+      weight: 4
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: true
+    # anchorLineNos: true
+    # codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai

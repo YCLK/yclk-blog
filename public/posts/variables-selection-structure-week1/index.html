@@ -1,0 +1,244 @@
+<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>2024 SW 아카데미 1주차 | 변수와 선택 구조 | 루크의 블로그</title><meta name=keywords content><meta name=description content='| 입출력이란?
+입출력의 기준은 프로그램 또는 컴퓨터이다.
+입력: 프로그램 또는 컴퓨터에 무언가를 주는 것
+출력: 프로그램 또는 컴퓨터가 무언가를 주는 것
+| 출력 예제
+print 함수를 이용하여 "Hello World!를 출력해보자
+
+
+1
+
+
+print("Hello World!")
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+
+
+# helloworld 출력
+print("hello" + "world")
+
+# hellohellohellohellohellohellohello 출력
+print("hello" * 7)
+
+# helloworldworldworldworldworld 출력
+print("hello" + "world" * 5)
+
+
+| 자료형이란?
+여러 종류의 데이터형을 식별하는 분류로, 자료형의 종류로는 정수형, 불린형, 문자형, 실수형 등이 있다.'><meta name=author content="YCLK"><link rel=canonical href=https://blog.yclk.me/posts/variables-selection-structure-week1/><link crossorigin=anonymous href=/assets/css/stylesheet.css rel="preload stylesheet" as=style><link rel=icon href=https://blog.yclk.me/favicon/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://blog.yclk.me/favicon/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://blog.yclk.me/favicon/favicon-32x32.png><link rel=apple-touch-icon href=https://blog.yclk.me/favicon/apple-touch-icon.png><link rel=mask-icon href=https://blog.yclk.me/favicon/apple-touch-icon.png><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://blog.yclk.me/posts/variables-selection-structure-week1/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-61DQ64GNV7"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-61DQ64GNV7")}</script><meta property="og:url" content="https://blog.yclk.me/posts/variables-selection-structure-week1/"><meta property="og:site_name" content="루크의 블로그"><meta property="og:title" content="2024 SW 아카데미 1주차 | 변수와 선택 구조"><meta property="og:description" content='| 입출력이란? 입출력의 기준은 프로그램 또는 컴퓨터이다.
+입력: 프로그램 또는 컴퓨터에 무언가를 주는 것 출력: 프로그램 또는 컴퓨터가 무언가를 주는 것
+| 출력 예제 print 함수를 이용하여 "Hello World!를 출력해보자
+1 print("Hello World!") 1 2 3 4 5 6 7 8 # helloworld 출력 print("hello" + "world") # hellohellohellohellohellohellohello 출력 print("hello" * 7) # helloworldworldworldworldworld 출력 print("hello" + "world" * 5) | 자료형이란? 여러 종류의 데이터형을 식별하는 분류로, 자료형의 종류로는 정수형, 불린형, 문자형, 실수형 등이 있다.'><meta property="og:locale" content="ko-kr"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-06-10T13:57:18+09:00"><meta property="article:modified_time" content="2024-06-10T13:57:18+09:00"><meta property="og:image" content="https://blog.yclk.me/images/cover.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://blog.yclk.me/images/cover.png"><meta name=twitter:title content="2024 SW 아카데미 1주차 | 변수와 선택 구조"><meta name=twitter:description content='| 입출력이란?
+입출력의 기준은 프로그램 또는 컴퓨터이다.
+입력: 프로그램 또는 컴퓨터에 무언가를 주는 것
+출력: 프로그램 또는 컴퓨터가 무언가를 주는 것
+| 출력 예제
+print 함수를 이용하여 "Hello World!를 출력해보자
+
+
+1
+
+
+print("Hello World!")
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+
+
+# helloworld 출력
+print("hello" + "world")
+
+# hellohellohellohellohellohellohello 출력
+print("hello" * 7)
+
+# helloworldworldworldworldworld 출력
+print("hello" + "world" * 5)
+
+
+| 자료형이란?
+여러 종류의 데이터형을 식별하는 분류로, 자료형의 종류로는 정수형, 불린형, 문자형, 실수형 등이 있다.'><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://blog.yclk.me/posts/"},{"@type":"ListItem","position":2,"name":"2024 SW 아카데미 1주차 | 변수와 선택 구조","item":"https://blog.yclk.me/posts/variables-selection-structure-week1/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"2024 SW 아카데미 1주차 | 변수와 선택 구조","name":"2024 SW 아카데미 1주차 | 변수와 선택 구조","description":"| 입출력이란? 입출력의 기준은 프로그램 또는 컴퓨터이다.\n입력: 프로그램 또는 컴퓨터에 무언가를 주는 것 출력: 프로그램 또는 컴퓨터가 무언가를 주는 것\n| 출력 예제 print 함수를 이용하여 \u0026quot;Hello World!를 출력해보자\n1 print(\u0026#34;Hello World!\u0026#34;) 1 2 3 4 5 6 7 8 # helloworld 출력 print(\u0026#34;hello\u0026#34; + \u0026#34;world\u0026#34;) # hellohellohellohellohellohellohello 출력 print(\u0026#34;hello\u0026#34; * 7) # helloworldworldworldworldworld 출력 print(\u0026#34;hello\u0026#34; + \u0026#34;world\u0026#34; * 5) | 자료형이란? 여러 종류의 데이터형을 식별하는 분류로, 자료형의 종류로는 정수형, 불린형, 문자형, 실수형 등이 있다.\n","keywords":[],"articleBody":"| 입출력이란? 입출력의 기준은 프로그램 또는 컴퓨터이다.\n입력: 프로그램 또는 컴퓨터에 무언가를 주는 것 출력: 프로그램 또는 컴퓨터가 무언가를 주는 것\n| 출력 예제 print 함수를 이용하여 \"Hello World!를 출력해보자\n1 print(\"Hello World!\") 1 2 3 4 5 6 7 8 # helloworld 출력 print(\"hello\" + \"world\") # hellohellohellohellohellohellohello 출력 print(\"hello\" * 7) # helloworldworldworldworldworld 출력 print(\"hello\" + \"world\" * 5) | 자료형이란? 여러 종류의 데이터형을 식별하는 분류로, 자료형의 종류로는 정수형, 불린형, 문자형, 실수형 등이 있다.\n| 대표적인 자료형 자료형 설명 예시 정수형 정수 숫자를 나타내는 자료형 123, 0, -1 실수형 실수를 나타내는 자료형 3.14 불린 ture, false를 나타내는 자료형 True, False 문자열 문자 하나 또는 문자 조합을 나타내는 자료형 “Hello”, “World” | 자료형을 알아내는 법 type() 함수를 활용하여 자료형을 알아낼 수 있다.\n1 2 3 4 5 eee = 3 type(eee) eee = 'Hello!' type(eee) | 자료형이 바르지 않을 때 자료형이 일치하지 않을 때, TypeError가 발생한다.\nTypeError는 자료형이 일치하지 않는 두 변수를 연산했을 때 발생한다. 파이썬에서는 컴파일 에러가 아닌 런타임 에러이기에, 작동 전까지는 확인할 수 없다.\n이를 해결하기 위해서는 자료형을 일치 시켜주면 된다. 이렇게 자료형을 변환해주는 것을 **캐스팅(Casting)이라고 한다.\n| TypeError 해결 예시 문제 상황: 정수 10과 문자열 “20\"을 더하는 경우, TypeError가 발생함\n1 2 3 4 5 6 7 # 1. 10+20을 원하는 경우, \"20\"을 정수 20으로 바꿔준다 a = 10 b = \"20\" b = int(b) print(a+b) 1 2 3 4 5 6 7 # 2. \"1020\"을 원하는 경우, 10을 문자열 \"10\"으로 바꿔준다 a = 10 b = \"20\" a = str(a) print(a+b) | 변수란? 변수(variable)는 데이터를 저장할 수 있는 메모리 공간을 의미하며, 변수에 저장된 값은 변경될 수 있다. 쉽게 생각하면 변수는 데이터를 저장하는 상자라고 생각할 수 있다.\n| 변수 생성 예제 1 2 3 4 a = 100 b = \"hello\" print(a, b) 변수 이름을 지을 때는 다음과 같은 규칙을 지켜야 한다.\n글자나 밑줄로 시작할 수 있다. 글자와 숫자, 밑줄로 이루어진다. 대소문자를 구분한다. 예약어(print등)은 변수 이름으로 사용할 수 없다. | 연산자란? 프로그램의 산술식이나 연산식을 표현하고 처리하기 위해 제공되는 다양한 기호\n| 산술 연산자 종류 의미 + 숫자를 덧셈하거나 문자열을 결합함 - 좌항을 우항으로 뺌(또는 부호 변경) * 숫자를 곱하거나, 문자열을 곱한 수 만큼 반복하여 결합함 ** 좌항을 우항으로 거듭 제곱함 / 좌항을 우항을 나눔(실수형) // 좌항을 우항으로 나눔(정수형) % 좌항을 우항으로 나눈 나머지 | 산술 연산자 사용 예시 1 2 3 4 5 6 7 8 9 10 a = 10 b = 3 print( a + b ) print( a - b ) print( a * b ) print( a ** b ) print( a / b ) print( a // b ) print( a % b ) | 그 외의 연산자 대입 연산자, 비교 연산자, 논리 연산자, 멤버 연산자, 증감 연산자 등이 있다.\n파이썬에서 a = 100은 a가 100이라는 뜻이 아니다. 여기서 =은 대입 연산자로, 변수 a에 숫자 100을 대입한다는 의미를 가진다.\n| 입력이란? 컴퓨터의 사용자가 컴퓨터(프로그램)에 값을 주는 것이다. 키보드로 글이나 숫자를 프로그램에 입력하거나 마우스로 클릭을 하는 행위를 입력이라고 볼 수 있다.\ninput() 함수를 통해서 사용자의 입력을 받을 수 있다. 입력을 받을 때 까지 프로그램은 멈추게 되며, input() 함수는 문자열을 넘겨준다는 특징이 있다.\n1 2 a = input(\"변수 a에 할당할 값을 입력하세요. :\") print(\"입력한 값은 : \",a, \"입니다!\") | 프로그래밍의 구조 순차 구조 순차적으로 프로그램이 실행된다. 선택 구조 조건의 참/거짓에 따라 다른 구조로 실행된다. 반복 구조 조건의 참/거짓에 따라 동일한 명령이 반복적으로 실행된다. | 조건식이란? 명시한 조건이 참인지 거짓인지 판별할 수 있는 것으로, 다음과 같은 내용을 조건식이라 한다.\n지금 현재 키보드의 스페이스 바를 눌렀는가?' 사용자가 입력한 비밀번호가 정확한가? A \u003e 10 ? | 비교 연산자란? 피연산자(숫자)의 크기를 판단하여, 참(true)과 거짓 (false)을 반환한다.\n종류 의미 == 값이 동일하다 != 값이 동일하지 않다 \u003e 왼쪽 값이 오른쪽 값보다 크다 \u003c 왼쪽 값이 오른쪽 값보다 작다 \u003e= 왼쪽 값이 오른쪽 값보다 크거나 동일하다 \u003c= 왼쪽 값이 오른쪽 값보다 작거나 동일하다 1 2 3 4 print( 100 \u003e 10 ) print( 5 == 5 ) print( 5 != 5 ) print( 50 \u003e= 50 ) | if란? 만약 ~라면 이라는 의미로, 조건문이 참이라면 실행하고, 거짓이라면 실행하지 않는다.\n1 2 if 조건식 : 코드 다음 코드는 변수 a가 100보다 큰 경우 “a가 100보다 큽니다.“를 출력하는 프로그램이다.\n1 2 3 4 a = 200 if a \u003e 100 : print(\"변수 a는 100보다 큰 수입니다.\") 다음 코드는 b 의 값이 True인 경우 “b의 값은 True입니다.“를 출력하는 프로그램이다.\n1 2 if b == True : print(\"변수 b의 값은 True입니다.\") | else란? “그 외\"를 뜻하며, if문과 함께 사용한다. if문 아래에 위치하고 if문의 조건식이 false일 때 실행되는 코드를 작성한다. else문에서는 조건을 적으면 안 된다.\n1 2 3 4 if 조건문 : 코드1 else : 코드2 변수 a가 10보다 크다면 “a가 10보다 큽니다.“를 출력하고, 아니면 “a가 10과 같거나 작습니다.“를 출력한다.\n1 2 3 4 if a \u003e 10 : print(\"a가 10보다 큽니다.\") else : print(\"a가 10과 같거나 작습니다.\") | elif란? else if 의 줄임말로, if 의 조건식에서 false 값이 나온 다음, 새로운 조건식으로 참/거짓을 판별 후 참이 나왔을 때, 특정 코드를 실행한다.\n1 2 3 4 5 if 조건식 : 코드1 elif 조건식2 : 코드2 else : 코드3 1 2 3 4 5 6 7 8 a = int(input(\"a의 값을 입력하세요. : \")) if a \u003e 10 : print(\"a가 10보다 큽니다.\") elif a == 10 : print(\"a는 10입니다.\") else : print(\"a가 10보다 작습니다.\") | 논리 연산자란? 참(True) / 거짓(False)을 연산하는 연산자로, 연산의 결과 또한 참(True) / 거짓(False) 중 하나이다.\n연산자 설명 and 논리곱 (둘 다 참일 때만 참을 출력한다) or 논리합 (하나만 참이어도 참을 출력한다) not 논리 부정 ","wordCount":"884","inLanguage":"en","image":"https://blog.yclk.me/images/cover.png","datePublished":"2024-06-10T13:57:18+09:00","dateModified":"2024-06-10T13:57:18+09:00","author":{"@type":"Person","name":"YCLK"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.yclk.me/posts/variables-selection-structure-week1/"},"publisher":{"@type":"Organization","name":"루크의 블로그","logo":{"@type":"ImageObject","url":"https://blog.yclk.me/favicon/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=https://blog.yclk.me/ accesskey=h title="루크의 블로그 (Alt + H)"><img src=https://blog.yclk.me/favicon/apple-touch-icon.png alt aria-label=logo height=35>루크의 블로그</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://blog.yclk.me/search title="검색 (Alt + /)" accesskey=/><span>검색</span></a></li><li><a href=https://blog.yclk.me/categories title=카테고리><span>카테고리</span></a></li><li><a href=https://blog.yclk.me/tags title=태그><span>태그</span></a></li><li><a href=https://blog.yclk.me/archives title=아카이브><span>아카이브</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">2024 SW 아카데미 1주차 | 변수와 선택 구조</h1><div class=post-meta><span title='2024-06-10 13:57:18 +0900 KST'>2024년 06월 10일</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>884 words</span>&nbsp;·&nbsp;<span>YCLK</span></div></header><figure class=entry-cover><img loading=eager srcset='https://blog.yclk.me/posts/variables-selection-structure-week1/images/cover_hu_be00269cc1cc526c.png 360w,https://blog.yclk.me/posts/variables-selection-structure-week1/images/cover_hu_a98943e2aa30184b.png 480w,https://blog.yclk.me/posts/variables-selection-structure-week1/images/cover_hu_48408dd9bc1e66e.png 720w,https://blog.yclk.me/posts/variables-selection-structure-week1/images/cover_hu_76beab015aa6b437.png 1080w,https://blog.yclk.me/posts/variables-selection-structure-week1/images/cover.png 1200w' src=https://blog.yclk.me/posts/variables-selection-structure-week1/images/cover.png sizes="(min-width: 768px) 720px, 100vw" width=1200 height=420 alt></figure><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>Table of Contents</span></summary><div class=inner><nav id=TableOfContents><ul><li><a href=#-입출력이란>| 입출력이란?</a><ul><li><a href=#-출력-예제>| 출력 예제</a></li></ul></li><li><a href=#-자료형이란>| 자료형이란?</a><ul><li><a href=#-대표적인-자료형>| 대표적인 자료형</a></li><li><a href=#-자료형을-알아내는-법>| 자료형을 알아내는 법</a></li><li><a href=#-자료형이-바르지-않을-때>| 자료형이 바르지 않을 때</a></li><li><a href=#-typeerror-해결-예시>| TypeError 해결 예시</a></li></ul></li><li><a href=#-변수란>| 변수란?</a><ul><li><a href=#-변수-생성-예제>| 변수 생성 예제</a></li></ul></li><li><a href=#-연산자란>| 연산자란?</a><ul><li><a href=#-산술-연산자>| 산술 연산자</a></li><li><a href=#-산술-연산자-사용-예시>| 산술 연산자 사용 예시</a></li><li><a href=#-그-외의-연산자>| 그 외의 연산자</a></li></ul></li><li><a href=#-입력이란>| 입력이란?</a></li><li><a href=#-프로그래밍의-구조>| 프로그래밍의 구조</a></li><li><a href=#-조건식이란>| 조건식이란?</a></li><li><a href=#-비교-연산자란>| 비교 연산자란?</a></li><li><a href=#-if란>| if란?</a></li><li><a href=#-else란>| else란?</a></li><li><a href=#-elif란>| elif란?</a></li><li><a href=#-논리-연산자란>| 논리 연산자란?</a></li></ul></nav></div></details></div><div class=post-content><h2 id=-입출력이란>| 입출력이란?<a hidden class=anchor aria-hidden=true href=#-입출력이란>#</a></h2><p>입출력의 기준은 프로그램 또는 컴퓨터이다.</p><p>입력: 프로그램 또는 컴퓨터에 무언가를 주는 것
+출력: 프로그램 또는 컴퓨터가 무언가를 주는 것</p><h3 id=-출력-예제>| 출력 예제<a hidden class=anchor aria-hidden=true href=#-출력-예제>#</a></h3><p>print 함수를 이용하여 <code>"Hello World!</code>를 출력해보자</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=s2>&#34;Hello World!&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># helloworld 출력</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=s2>&#34;hello&#34;</span> <span class=o>+</span> <span class=s2>&#34;world&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># hellohellohellohellohellohellohello 출력</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=s2>&#34;hello&#34;</span> <span class=o>*</span> <span class=mi>7</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># helloworldworldworldworldworld 출력</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=s2>&#34;hello&#34;</span> <span class=o>+</span> <span class=s2>&#34;world&#34;</span> <span class=o>*</span> <span class=mi>5</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=-자료형이란>| 자료형이란?<a hidden class=anchor aria-hidden=true href=#-자료형이란>#</a></h2><p>여러 종류의 데이터형을 식별하는 분류로, 자료형의 종류로는 <strong>정수형, 불린형, 문자형, 실수형</strong> 등이 있다.</p><h3 id=-대표적인-자료형>| 대표적인 자료형<a hidden class=anchor aria-hidden=true href=#-대표적인-자료형>#</a></h3><table><thead><tr><th>자료형</th><th>설명</th><th>예시</th></tr></thead><tbody><tr><td>정수형</td><td>정수 숫자를 나타내는 자료형</td><td>123, 0, -1</td></tr><tr><td>실수형</td><td>실수를 나타내는 자료형</td><td>3.14</td></tr><tr><td>불린</td><td>ture, false를 나타내는 자료형</td><td>True, False</td></tr><tr><td>문자열</td><td>문자 하나 또는 문자 조합을 나타내는 자료형</td><td>&ldquo;Hello&rdquo;, &ldquo;World&rdquo;</td></tr></tbody></table><h3 id=-자료형을-알아내는-법>| 자료형을 알아내는 법<a hidden class=anchor aria-hidden=true href=#-자료형을-알아내는-법>#</a></h3><p>type() 함수를 활용하여 자료형을 알아낼 수 있다.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>eee</span> <span class=o>=</span> <span class=mi>3</span>
+</span></span><span class=line><span class=cl><span class=nb>type</span><span class=p>(</span><span class=n>eee</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>eee</span> <span class=o>=</span> <span class=s1>&#39;Hello!&#39;</span>
+</span></span><span class=line><span class=cl><span class=nb>type</span><span class=p>(</span><span class=n>eee</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><h3 id=-자료형이-바르지-않을-때>| 자료형이 바르지 않을 때<a hidden class=anchor aria-hidden=true href=#-자료형이-바르지-않을-때>#</a></h3><p>자료형이 일치하지 않을 때, <code>TypeError</code>가 발생한다.</p><p>TypeError는 자료형이 일치하지 않는 두 변수를 연산했을 때 발생한다.
+파이썬에서는 컴파일 에러가 아닌 런타임 에러이기에, 작동 전까지는 확인할 수 없다.</p><p>이를 해결하기 위해서는 자료형을 일치 시켜주면 된다. 이렇게 자료형을 변환해주는 것을 **캐스팅(Casting)이라고 한다.</p><h3 id=-typeerror-해결-예시>| TypeError 해결 예시<a hidden class=anchor aria-hidden=true href=#-typeerror-해결-예시>#</a></h3><p>문제 상황: 정수 10과 문자열 &ldquo;20"을 더하는 경우, TypeError가 발생함</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># 1. 10+20을 원하는 경우, &#34;20&#34;을 정수 20으로 바꿔준다</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>a</span> <span class=o>=</span> <span class=mi>10</span>
+</span></span><span class=line><span class=cl><span class=n>b</span> <span class=o>=</span> <span class=s2>&#34;20&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>b</span> <span class=o>=</span> <span class=nb>int</span><span class=p>(</span><span class=n>b</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>a</span><span class=o>+</span><span class=n>b</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># 2. &#34;1020&#34;을 원하는 경우, 10을 문자열 &#34;10&#34;으로 바꿔준다</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>a</span> <span class=o>=</span> <span class=mi>10</span>
+</span></span><span class=line><span class=cl><span class=n>b</span> <span class=o>=</span> <span class=s2>&#34;20&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>a</span> <span class=o>=</span> <span class=nb>str</span><span class=p>(</span><span class=n>a</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>a</span><span class=o>+</span><span class=n>b</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=-변수란>| 변수란?<a hidden class=anchor aria-hidden=true href=#-변수란>#</a></h2><p>변수(variable)는 <strong>데이터를 저장할 수 있는 메모리 공간</strong>을 의미하며, 변수에 저장된 값은 <strong>변경</strong>될 수 있다. 쉽게 생각하면 변수는 <strong>데이터를 저장하는 상자</strong>라고 생각할 수 있다.</p><p><img loading=lazy src=Pasted%20image%2020240601215801.png></p><h3 id=-변수-생성-예제>| 변수 생성 예제<a hidden class=anchor aria-hidden=true href=#-변수-생성-예제>#</a></h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>a</span> <span class=o>=</span> <span class=mi>100</span>
+</span></span><span class=line><span class=cl><span class=n>b</span> <span class=o>=</span> <span class=s2>&#34;hello&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>a</span><span class=p>,</span> <span class=n>b</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p>변수 이름을 지을 때는 다음과 같은 규칙을 지켜야 한다.</p><ul><li>글자나 밑줄로 시작할 수 있다.</li><li>글자와 숫자, 밑줄로 이루어진다.</li><li>대소문자를 구분한다.</li><li>예약어(print등)은 변수 이름으로 사용할 수 없다.</li></ul><h2 id=-연산자란>| 연산자란?<a hidden class=anchor aria-hidden=true href=#-연산자란>#</a></h2><p>프로그램의 산술식이나 연산식을 표현하고 처리하기 위해 제공되는 다양한 기호</p><h3 id=-산술-연산자>| 산술 연산자<a hidden class=anchor aria-hidden=true href=#-산술-연산자>#</a></h3><table><thead><tr><th>종류</th><th>의미</th><th></th></tr></thead><tbody><tr><td>+</td><td>숫자를 덧셈하거나 문자열을 결합함</td><td></td></tr><tr><td>-</td><td>좌항을 우항으로 뺌(또는 부호 변경)</td><td></td></tr><tr><td>*</td><td>숫자를 곱하거나, 문자열을 곱한 수 만큼 반복하여 결합함</td><td></td></tr><tr><td>**</td><td>좌항을 우항으로 거듭 제곱함</td><td></td></tr><tr><td>/</td><td>좌항을 우항을 나눔(실수형)</td><td></td></tr><tr><td>//</td><td>좌항을 우항으로 나눔(정수형)</td><td></td></tr><tr><td>%</td><td>좌항을 우항으로 나눈 나머지</td><td></td></tr></tbody></table><h3 id=-산술-연산자-사용-예시>| 산술 연산자 사용 예시<a hidden class=anchor aria-hidden=true href=#-산술-연산자-사용-예시>#</a></h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>a</span> <span class=o>=</span> <span class=mi>10</span>
+</span></span><span class=line><span class=cl><span class=n>b</span> <span class=o>=</span> <span class=mi>3</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=n>a</span> <span class=o>+</span> <span class=n>b</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=n>a</span> <span class=o>-</span> <span class=n>b</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=n>a</span> <span class=o>*</span> <span class=n>b</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=n>a</span> <span class=o>**</span> <span class=n>b</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=n>a</span> <span class=o>/</span> <span class=n>b</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=n>a</span> <span class=o>//</span> <span class=n>b</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=n>a</span> <span class=o>%</span> <span class=n>b</span> <span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><h3 id=-그-외의-연산자>| 그 외의 연산자<a hidden class=anchor aria-hidden=true href=#-그-외의-연산자>#</a></h3><p><strong>대입 연산자, 비교 연산자, 논리 연산자, 멤버 연산자, 증감 연산자</strong> 등이 있다.</p><p><strong>파이썬에서 a = 100은 a가 100이라는 뜻이 아니다. 여기서 =은 대입 연산자로, 변수 a에 숫자 100을 대입한다는 의미를 가진다.</strong></p><h2 id=-입력이란>| 입력이란?<a hidden class=anchor aria-hidden=true href=#-입력이란>#</a></h2><p>컴퓨터의 사용자가 컴퓨터(프로그램)에 값을 주는 것이다. 키보드로 글이나 숫자를 프로그램에 입력하거나 마우스로 클릭을 하는 행위를 입력이라고 볼 수 있다.</p><p>input() 함수를 통해서 사용자의 입력을 받을 수 있다.
+입력을 받을 때 까지 프로그램은 멈추게 되며, input() 함수는 <strong>문자열을 넘겨준</strong>다는 특징이 있다.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>a</span> <span class=o>=</span> <span class=nb>input</span><span class=p>(</span><span class=s2>&#34;변수 a에 할당할 값을 입력하세요. :&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=s2>&#34;입력한 값은 : &#34;</span><span class=p>,</span><span class=n>a</span><span class=p>,</span> <span class=s2>&#34;입니다!&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=-프로그래밍의-구조>| 프로그래밍의 구조<a hidden class=anchor aria-hidden=true href=#-프로그래밍의-구조>#</a></h2><ul><li>순차 구조<ul><li>순차적으로 프로그램이 실행된다.</li></ul></li><li>선택 구조<ul><li>조건의 참/거짓에 따라 다른 구조로 실행된다.</li></ul></li><li>반복 구조<ul><li>조건의 참/거짓에 따라 동일한 명령이 반복적으로 실행된다.</li></ul></li></ul><p><img loading=lazy src=Pasted%20image%2020240601210243.png></p><h2 id=-조건식이란>| 조건식이란?<a hidden class=anchor aria-hidden=true href=#-조건식이란>#</a></h2><p>명시한 조건이 참인지 거짓인지 판별할 수 있는 것으로, 다음과 같은 내용을 조건식이라 한다.</p><p><img loading=lazy src=Pasted%20image%2020240601210610.png></p><ul><li>지금 현재 키보드의 스페이스 바를 눌렀는가?'</li><li>사용자가 입력한 비밀번호가 정확한가?</li><li>A > 10 ?</li></ul><p><img loading=lazy src=Pasted%20image%2020240601210603.png></p><h2 id=-비교-연산자란>| 비교 연산자란?<a hidden class=anchor aria-hidden=true href=#-비교-연산자란>#</a></h2><p>피연산자(숫자)의 크기를 판단하여, 참(true)과 거짓 (false)을 반환한다.</p><table><thead><tr><th>종류</th><th>의미</th></tr></thead><tbody><tr><td>==</td><td>값이 동일하다</td></tr><tr><td>!=</td><td>값이 동일하지 않다</td></tr><tr><td>></td><td>왼쪽 값이 오른쪽 값보다 크다</td></tr><tr><td>&lt;</td><td>왼쪽 값이 오른쪽 값보다 작다</td></tr><tr><td>>=</td><td>왼쪽 값이 오른쪽 값보다 크거나 동일하다</td></tr><tr><td>&lt;=</td><td>왼쪽 값이 오른쪽 값보다 작거나 동일하다</td></tr></tbody></table><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=mi>100</span> <span class=o>&gt;</span> <span class=mi>10</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=mi>5</span> <span class=o>==</span> <span class=mi>5</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=mi>5</span> <span class=o>!=</span> <span class=mi>5</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span> <span class=mi>50</span> <span class=o>&gt;=</span> <span class=mi>50</span> <span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=-if란>| if란?<a hidden class=anchor aria-hidden=true href=#-if란>#</a></h2><p>만약 ~라면 이라는 의미로, 조건문이 참이라면 실행하고, 거짓이라면 실행하지 않는다.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>if</span> <span class=n>조건식</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=n>코드</span>
+</span></span></code></pre></td></tr></table></div></div><p>다음 코드는 변수 a가 100보다 큰 경우 &ldquo;a가 100보다 큽니다.&ldquo;를 출력하는 프로그램이다.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>a</span> <span class=o>=</span> <span class=mi>200</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>if</span> <span class=n>a</span> <span class=o>&gt;</span> <span class=mi>100</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=nb>print</span><span class=p>(</span><span class=s2>&#34;변수 a는 100보다 큰 수입니다.&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p>다음 코드는 b 의 값이 True인 경우 &ldquo;b의 값은 True입니다.&ldquo;를 출력하는 프로그램이다.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>if</span> <span class=n>b</span> <span class=o>==</span> <span class=kc>True</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=nb>print</span><span class=p>(</span><span class=s2>&#34;변수 b의 값은 True입니다.&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=-else란>| else란?<a hidden class=anchor aria-hidden=true href=#-else란>#</a></h2><p>&ldquo;그 외"를 뜻하며, if문과 함께 사용한다.
+if문 아래에 위치하고 if문의 조건식이 false일 때 실행되는 코드를 작성한다.
+<strong>else문에서는 조건을 적으면 안 된다.</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>if</span> <span class=n>조건문</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=n>코드1</span>
+</span></span><span class=line><span class=cl><span class=k>else</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=n>코드2</span>
+</span></span></code></pre></td></tr></table></div></div><p>변수 a가 10보다 크다면 &ldquo;a가 10보다 큽니다.&ldquo;를 출력하고, 아니면 &ldquo;a가 10과 같거나 작습니다.&ldquo;를 출력한다.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>if</span> <span class=n>a</span> <span class=o>&gt;</span> <span class=mi>10</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=nb>print</span><span class=p>(</span><span class=s2>&#34;a가 10보다 큽니다.&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=k>else</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=nb>print</span><span class=p>(</span><span class=s2>&#34;a가 10과 같거나 작습니다.&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=-elif란>| elif란?<a hidden class=anchor aria-hidden=true href=#-elif란>#</a></h2><p>else if 의 줄임말로, if 의 조건식에서 false 값이 나온 다음, 새로운 조건식으로 참/거짓을 판별 후 참이 나왔을 때, 특정 코드를 실행한다.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>if</span> <span class=n>조건식</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=n>코드1</span>
+</span></span><span class=line><span class=cl><span class=k>elif</span> <span class=n>조건식2</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=n>코드2</span>
+</span></span><span class=line><span class=cl><span class=k>else</span> <span class=p>:</span> <span class=n>코드3</span>
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>a</span> <span class=o>=</span> <span class=nb>int</span><span class=p>(</span><span class=nb>input</span><span class=p>(</span><span class=s2>&#34;a의 값을 입력하세요. : &#34;</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>if</span> <span class=n>a</span> <span class=o>&gt;</span> <span class=mi>10</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=nb>print</span><span class=p>(</span><span class=s2>&#34;a가 10보다 큽니다.&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=k>elif</span> <span class=n>a</span> <span class=o>==</span> <span class=mi>10</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=nb>print</span><span class=p>(</span><span class=s2>&#34;a는 10입니다.&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=k>else</span> <span class=p>:</span> 
+</span></span><span class=line><span class=cl>	<span class=nb>print</span><span class=p>(</span><span class=s2>&#34;a가 10보다 작습니다.&#34;</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=-논리-연산자란>| 논리 연산자란?<a hidden class=anchor aria-hidden=true href=#-논리-연산자란>#</a></h2><p>참(True) / 거짓(False)을 연산하는 연산자로, 연산의 결과 또한 참(True) / 거짓(False) 중 하나이다.</p><table><thead><tr><th>연산자</th><th>설명</th></tr></thead><tbody><tr><td>and</td><td>논리곱 (둘 다 참일 때만 참을 출력한다)</td></tr><tr><td>or</td><td>논리합 (하나만 참이어도 참을 출력한다)</td></tr><tr><td>not</td><td>논리 부정</td></tr></tbody></table></div><footer class=post-footer><ul class=post-tags></ul><nav class=paginav><a class=prev href=https://blog.yclk.me/posts/list-repeat-structure-week2/><span class=title>« Prev</span><br><span>2024 SW 아카데미 2주차 | 리스트와 반복 구조</span>
+</a><a class=next href=https://blog.yclk.me/posts/tistory-to-hugo/><span class=title>Next »</span><br><span>티스토리에서 Hugo로! 나의 블로그 이전기</span></a></nav></footer></article></main><footer class=footer><span>&copy; 2025 <a href=https://blog.yclk.me/>루크의 블로그</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

@@ -1,0 +1,32 @@
+/* 타이틀과 하단 마진 */
+.first-entry {
+	margin-bottom: 0;
+}
+
+/* 기본 텍스트의 행간 조절 */
+body {
+    line-height: 1.7; /* 원하는 값으로 설정 */
+}
+
+.header {
+    padding-top: 10px; /* 상단 여백 */
+}
+
+/*  이전 / 다음 포스트 패딩 */
+.paginav > a {
+	padding: 0.5rem;
+}
+.paginav > .prev {
+	padding-left: 1rem;
+}
+.paginav > .next {
+	padding-right: 1rem;
+}
+
+.post-title {
+    font-size: 30px;
+}
+
+.post-content code {
+	font-size: 0.85em;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Student on 루크의 블로그</title>
+    <link>https://blog.yclk.me/tags/student/</link>
+    <description>Recent content in Student on 루크의 블로그</description>
+    <image>
+      <title>루크의 블로그</title>
+      <url>https://blog.yclk.me/images/YCLK-Blog-Opengraph.png</url>
+      <link>https://blog.yclk.me/images/YCLK-Blog-Opengraph.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Mon, 13 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.yclk.me/tags/student/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub 중(고등)학생 인증 하는 법 (Student Developer Pack)</title>
+      <link>https://blog.yclk.me/posts/how-to-certificate-github-student-developer-pack/</link>
+      <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://blog.yclk.me/posts/how-to-certificate-github-student-developer-pack/</guid>
+      <description>🔥 중학생 또는 고등학생을 위한 깃허브(GitHub) 학생 인증 가이드</description>
+    </item>
+  </channel>
+</rss>
