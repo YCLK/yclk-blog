@@ -10,7 +10,13 @@ draft = false
 ## | 들어가며
 
 안녕하세요! 루크입니다 :)
-이번 포스팅에서는 제가 필수로 설치하는 크롬 확장 프로그램들을 추천하는 글을 작성하려고 합니다. 크로미움 기반의 브라우저를 사용하신다면 모두 호환될 것이고 이 중 일부는 파이어폭스에서도 사용하실 수 있습니다!
+이번 포스팅에서는 제가 필수로 설치하는 크롬 확장 프로그램들을 추천하는 글을 작성하려고 합니다. 크로미움 기반의 브라우저를 사용하신다면 모두 호환될 것이고, 일부는 파이어폭스에서도 사용하실 수 있습니다!
+
+## | Into The Black Hole
+
+[Into The Black Hole - True Amoled Black Theme](https://chromewebstore.google.com/detail/into-the-black-hole-true/faeadnfmdfamenfhaipofoffijhlnkif)
+
+여러 이유로 크롬보다는 브레이브를 사용하는 것을 선호하는데, 브레이브의 기본 다크 테마가 마음에 들지 않아 사용합니다.
 
 ## | Add to Pinry
 
@@ -229,9 +235,8 @@ draft = false
 
 유저 스크립트를 쉽게 로드할 수 있는 확장 프로그램입니다.
 
-## | Save to Notion
+## | Notion Web Clipper
 
-[Save to Notion - Chrome Web Store](https://chromewebstore.google.com/detail/save-to-notion/ldmmifpegigmeammaeckplhnjbbpccmm)
 [Notion Web Clipper - Chrome Web Store](https://chromewebstore.google.com/detail/knheggckgoiihginacbkhaalnibhilkk?utm_source=item-share-cb)
 
 노션을 통한 페이지 북마크를 위해 사용합니다. Save to Notion이 더 기능이 좋아 이를 주로 사용했었지만 버그가 꽤 있는 것 같아 최근에는 공식 확장 프로그램인 Notion Web Clipper를 더 자주 사용합니다.
